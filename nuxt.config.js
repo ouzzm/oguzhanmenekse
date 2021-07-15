@@ -35,26 +35,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    '@nuxtjs/google-analytics',
-    '@nuxtjs/recaptcha',
-  ],
-
-  googleAnalytics: {
-    id: process.env.ANALYTICS_KEY,
-  },
-
-  recaptcha: {
-    hideBadge: false, // Hide badge element (v3 & v2 via size=invisible)
-    siteKey: process.env.RECAPTCHA_KEY, // Site key for requests
-    version: 2, // Version
-    size: 'invisible', // Size: 'compact', 'normal', 'invisible' (v2)
-  },
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  modules: [],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {

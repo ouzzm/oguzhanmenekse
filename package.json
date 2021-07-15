@@ -12,10 +12,6 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.11.0",
-    "@nuxtjs/google-analytics": "^2.4.0",
-    "@nuxtjs/recaptcha": "^0.6.2",
-    "dotenv": "^10.0.0",
     "nuxt": "^2.13.0"
   },
   "devDependencies": {

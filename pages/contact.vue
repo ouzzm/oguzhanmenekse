@@ -14,7 +14,7 @@
       </v-toolbar>
       <v-card-text>
         <v-row>
-          <v-col sm="4" md="4" lg="4" xl="4">
+          <v-col class="mb-6" sm="4" md="4" lg="4" xl="4">
             <v-slide-x-transition>
               <v-card
                 v-show="leftSlideImage"
